@@ -14,7 +14,7 @@ export function TodoProvider({children}){
     //which return state and a function called dispatch(it contains all the function that we created in reducers file)
     const [todos, dispatch] = useReducer(reducer, defaultTodos);
     return (
-    //split into 2 context because of unnecessory re-renders of todos value 
+    //split into 2 context because of unnecessory re-renders of todos state
     
         <TodoContext.Provider value={todos}>
             <DispatchContext.Provider value={dispatch}>

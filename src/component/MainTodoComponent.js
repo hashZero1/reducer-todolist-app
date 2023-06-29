@@ -7,7 +7,7 @@ import Toolbar from '@mui/material/Toolbar';
 import AppBar from '@mui/material/AppBar';
 import { Typography } from '@mui/material';
 
-function ToggleTask(){
+function MainTodoComponent(){
       return(
         <Paper style={{
             padding: 0,
@@ -30,4 +30,4 @@ function ToggleTask(){
     )
 }
 
-export default ToggleTask;
+export default MainTodoComponent;
